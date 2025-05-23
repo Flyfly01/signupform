@@ -64,6 +64,24 @@ body {
 
 .form-box {
   background-color: aqua;
+  padding-left: 40px;
+  margin-bottom: 30px;
 }
+
+.form-row {
+  background-color: green;
+  display: flex; /* lets input fields stack next to each other */
+  margin-bottom: 20px; /* separates each form row vertically */
+  gap: 20px; /* adds space horizontally between the 2 input fields */
+}
+
+.input-group {
+  background-color: pink;
+  display: flex;
+  flex-direction: column; /* field name & input box sit side by side but we want label on top and input box below */
+  gap: 5px;
+}
+
+
 
 
