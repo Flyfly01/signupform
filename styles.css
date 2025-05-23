@@ -80,6 +80,33 @@ body {
   display: flex;
   flex-direction: column; /* field name & input box sit side by side but we want label on top and input box below */
   gap: 5px;
+  width: 300px; /* makes a long input box for entering long data */
+}
+
+.create_acc {
+  padding-left: 40px;
+}
+
+button {
+  background-color: #815c32;
+  border: none;
+  font-size: 16px;
+  color: white;
+  padding-top:  15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 15px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.log_in {
+  display: flex;
+  padding-left: 40px;
+  background-color: aquamarine;
+  align-items: center;
+  gap: 10px;
 }
 
 
